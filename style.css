@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+
+
+body{
+    background-color: #7e7e7e;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.cabecalho{
+    width: auto;
+    height: 50px;
+}
+.banner {
+    background-color: black;
+    width: auto;
+    height: 400px;
+    position: relative;
+}
+img.eu{
+    position: absolute; top:70px; left:100px;
+}
+.apresentacao{
+    padding-top: 100px;
+    margin-left: 550px;
+    color: white;
+}
+.apresentacaoTexto{
+    margin-left: 550px;
+    color: white;
+}
+section{
+    width: auto;
+    height: 700px;
+}
+.infos{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 555px;
+    margin-top: 150px;
+}
+.teste{
+    margin-right: 40%;
+}
+
+.rodape{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    position: relative;  
+    text-align: center;
+}
+.icons{
+    width: 37px;
+}
+#listaSocial ul li { display: inline;}
+
+#listaSocial ul li a {
+    display: inline-block;
+}
+#listaSocial li{
+    margin: 20px;
+}
+#listaSocial ul{
+    padding-top: 35px;
+}
