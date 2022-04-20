@@ -9,6 +9,7 @@ body{
     width: auto;
     height: 50px;
 }
+/* Inicio Banner */
 .banner {
     background-color: black;
     width: auto;
@@ -17,27 +18,90 @@ body{
     border: 100px;
     box-shadow: 3px 3px 3px black;
 }
+.infosBanner{
+    padding-top: 5%;
+    margin-left: 29.8%;
+}
 img.eu{
     position: absolute; top:70px; left:100px;
     border: 100px;
     box-shadow: 3px 3px 3px black;
 }
 .apresentacao{
-    padding-top: 100px;
-    margin-left: 550px;
     color: white;
 }
 .apresentacaoTexto{
-    margin-left: 550px;
     color: white;
 }
-section{
+/* Fim Banner */
+
+/* Media Desktop menor resolução */
+@media (max-width: 1680px){
+    img.eu {
+        display: block;
+        margin: auto;
+        position: relative;
+        width: 30%;
+        margin-bottom: 5px;
+    }
+    .banner{
+        margin-bottom: 10px;
+        height: 900px;
+        text-align: center;
+    }
+    .infosBanner{
+        text-align: center;
+        margin-right: 290px;
+    }
+}
+/* Media Laptop */
+@media (max-width: 1440px){
+    img.eu {
+        padding-right: 170px;
+    }
+    .banner{
+        height: 800px;
+}
+    .infosBanner{
+        margin-right: 365px;
+
+}
+}
+/* Media ipad */
+@media (max-width: 1024px){
+    img.eu {
+        width: 400px;
+        padding-right: 220px;
+        padding-bottom: 10px;
+    }
+    .banner{
+        height: 850px;
+    }
+    .infosBanner{
+        padding-left: 50px;
+    }
+}
+/* Media Celular*/
+@media (max-width: 375px){
+    img.eu {
+        width: 1px;
+    }
+    .banner{
+
+    }
+    .infosBanner{
+
+    }
+}
+
+/* Inicio Main */
+main {
     width: auto;
     height: 700px;
 }
 .infos{
     font-family: 'Source Sans Pro', sans-serif;
-    margin-left: 555px;
+    margin-left: 30%;
     margin-top: 150px;
 }
 .teste{
