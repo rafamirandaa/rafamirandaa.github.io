@@ -63,22 +63,23 @@ img.eu{
         height: 800px;
 }
     .infosBanner{
-        margin-right: 365px;
+        margin-right: 248px;
 
-}
+    }
 }
 /* Media ipad */
 @media (max-width: 1024px){
     img.eu {
-        width: 400px;
+        width: 350px;
         padding-right: 220px;
         padding-bottom: 10px;
     }
     .banner{
-        height: 850px;
+        height: 800px;
     }
     .infosBanner{
-        padding-left: 50px;
+        margin-top: 20px;
+        padding-left: 0px;
     }
 }
 /* Media Celular*/
