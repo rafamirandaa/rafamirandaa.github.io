@@ -6,24 +6,28 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 .cabecalho{
-    width: auto;
+    width: 100%;
     height: 50px;
 }
 /* Inicio Banner */
+
 .banner {
     background-color: black;
-    width: auto;
-    height: 400px;
-    position: relative;
+    width: 100%;
+    height: 430px;
     border: 100px;
     box-shadow: 3px 3px 3px black;
+
 }
 .infosBanner{
-    padding-top: 5%;
-    margin-left: 29.8%;
+    padding-left: 550px;
+    padding-top: 50px;
+}
+.infosBanner > .apresentacaoTexto3{
+    padding-top: 40px;
 }
 img.eu{
-    position: absolute; top:70px; left:100px;
+    position: absolute; top:160px; left:100px;
     border: 100px;
     box-shadow: 3px 3px 3px black;
 }
@@ -33,66 +37,99 @@ img.eu{
 .apresentacaoTexto{
     color: white;
 }
+.apresentacaoTexto1{
+    color: white;
+}
+.apresentacaoTexto2{
+        color: white;
+}
+.apresentacaoTexto3{
+    color: white;
+}
 /* Fim Banner */
+
+/* Media Desktop menor resolução */
+
 
 /* Media Desktop menor resolução */
 @media (max-width: 1680px){
     img.eu {
-        display: block;
         margin: auto;
+        display: block;
         position: relative;
-        width: 30%;
-        margin-bottom: 5px;
+        width: 400px;
     }
     .banner{
-        margin-bottom: 10px;
-        height: 900px;
-        text-align: center;
+        height: 950px;
+
     }
     .infosBanner{
+        margin: auto;
         text-align: center;
-        margin-right: 290px;
+        padding-top: 160px;
+        padding-left: 200px;
     }
+
 }
 /* Media Laptop */
 @media (max-width: 1440px){
     img.eu {
-        padding-right: 170px;
+        margin: auto;
+        display: block;
+        position: relative;
+        width: 400px;
     }
     .banner{
-        height: 800px;
-}
-    .infosBanner{
-        margin-right: 248px;
+        height: 950px;
 
     }
+    .infosBanner{
+        margin: auto;
+        text-align: center;
+        padding-top: 160px;
+        padding-left: 200px;
+    }
+
 }
 /* Media ipad */
 @media (max-width: 1024px){
     img.eu {
-        width: 350px;
-        padding-right: 220px;
-        padding-bottom: 10px;
+        margin: auto;
+        display: block;
+        position: relative;
+        width: 400px;
     }
     .banner{
-        height: 800px;
+        height: 950px;
+
     }
     .infosBanner{
-        margin-top: 20px;
-        padding-left: 0px;
+        margin: auto;
+        text-align: center;
+        padding-top: 160px;
+        padding-left: 200px;
     }
+
 }
 /* Media Celular*/
 @media (max-width: 375px){
     img.eu {
-        width: 1px;
+        margin: auto;
+        display: block;
+        position: relative;
+        width: 400px;
     }
     .banner{
+        height: 950px;
 
     }
     .infosBanner{
-
+        margin: auto;
+        text-align: center;
+        padding-top: 160px;
+        padding-left: 200px;
     }
+
 }
 
 /* Inicio Main */
@@ -111,7 +148,6 @@ main {
 
 .rodape{
     background-color: black;
-    width: 100%;
     height: 100px;
     position: relative;  
     text-align: center;
