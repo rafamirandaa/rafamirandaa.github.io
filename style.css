@@ -48,71 +48,9 @@ img.eu{
 }
 /* Fim Banner */
 
-/* Media Desktop menor resolução */
 
-
-/* Media Desktop menor resolução */
+/* Media responsividade*/
 @media (max-width: 1680px){
-    img.eu {
-        margin: auto;
-        display: block;
-        position: relative;
-        width: 400px;
-    }
-    .banner{
-        height: 950px;
-
-    }
-    .infosBanner{
-        margin: auto;
-        text-align: center;
-        padding-top: 160px;
-        padding-left: 200px;
-    }
-
-}
-/* Media Laptop */
-@media (max-width: 1440px){
-    img.eu {
-        margin: auto;
-        display: block;
-        position: relative;
-        width: 400px;
-    }
-    .banner{
-        height: 950px;
-
-    }
-    .infosBanner{
-        margin: auto;
-        text-align: center;
-        padding-top: 160px;
-        padding-left: 200px;
-    }
-
-}
-/* Media ipad */
-@media (max-width: 1024px){
-    img.eu {
-        margin: auto;
-        display: block;
-        position: relative;
-        width: 400px;
-    }
-    .banner{
-        height: 950px;
-
-    }
-    .infosBanner{
-        margin: auto;
-        text-align: center;
-        padding-top: 160px;
-        padding-left: 200px;
-    }
-
-}
-/* Media Celular*/
-@media (max-width: 375px){
     img.eu {
         margin: auto;
         display: block;
